@@ -21,7 +21,7 @@ type RiceStock = {
   note: string;
 };
 
-export default function Home() {
+export default function Page() {
   const [riceStock, setRiceStock] = useState<RiceStock>({
     shopName: "",
     location: "",
